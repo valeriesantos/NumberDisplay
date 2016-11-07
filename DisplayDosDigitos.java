@@ -10,7 +10,9 @@
  */
 public class DisplayDosDigitos
 {
+    // El valor limite que nunca alcanza el display y en el que vuelve a 1
     private int limite;
+    // El valor actual que almacena el display
     private int valor;
 
 
