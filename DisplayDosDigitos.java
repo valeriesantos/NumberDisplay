@@ -17,7 +17,7 @@ public class DisplayDosDigitos
     /**
      * Constructor de la clase DisplayDosDigitos
      *
-     * @param limiteDisplay El valor máximo que puede mostrar el display
+     * @param limiteDisplay El valor máximo que ya no puede mostrar el display
      */
     public DisplayDosDigitos(int limiteDisplay)
     {
@@ -52,7 +52,7 @@ public class DisplayDosDigitos
      */
     public void setValor(int nuevoValor)
     {
-        if((nuevoValor >= 1) && (nuevoValor <= limite)) {
+        if((nuevoValor >= 1) && (nuevoValor < limite)) {
             valor = nuevoValor;
         }
     }
@@ -63,7 +63,7 @@ public class DisplayDosDigitos
     public void incrementaValor()
     {
         valor = valor + 1;
-        if (valor > limite) {
+        if (valor = limite) {
             valor = 1;
         }
     }
