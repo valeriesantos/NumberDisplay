@@ -52,7 +52,7 @@ public class DisplayDosDigitos
      */
     public void setValor(int nuevoValor)
     {
-        if((nuevoValor >= 0) && (nuevoValor < limite)) {
+        if((nuevoValor >= 1) && (nuevoValor <= limite)) {
             valor = nuevoValor;
         }
     }
