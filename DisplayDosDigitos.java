@@ -65,7 +65,7 @@ public class DisplayDosDigitos
     public void incrementaValor()
     {
         valor = valor + 1;
-        if (valor = limite) {
+        if (valor == limite) {
             valor = 1;
         }
     }
