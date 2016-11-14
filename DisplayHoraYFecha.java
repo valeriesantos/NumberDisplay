@@ -42,7 +42,15 @@ public void avanzarMomento()
      }
     
 }
-
+public String getMomento()
+{
+    return horas.getDisplayValue() + ":" + minutos.getDisplayValue();
 }
+}
+
+
+
+
+
 
 
